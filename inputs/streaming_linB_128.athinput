@@ -1,0 +1,82 @@
+<job>
+basename = streaming_linB_128
+<mesh>
+nghost = 3
+nx1 = 128
+x1min = 0.0
+x1max = 0.05235987755982988
+ix1_bc = periodic
+ox1_bc = periodic
+nx2 = 128
+x2min = 0.0
+x2max = 0.05235987755982988
+ix2_bc = periodic
+ox2_bc = periodic
+nx3 = 1
+x3min = -0.5
+x3max = 0.5
+ix3_bc = periodic
+ox3_bc = periodic
+<meshblock>
+nx1 = 32
+nx2 = 32
+nx3 = 1
+<time>
+evolution = dynamic
+integrator = imex2+
+cfl_number = 0.225
+nlim = -1
+tlim = 8.0
+ndiag = 100000
+<hydro>
+eos = isothermal
+iso_sound_speed = 1.0
+reconstruct = ppmx
+rsolver = roe
+<hydro_srcterms>
+const_accel = true
+const_accel_val = 0.1
+const_accel_dir = 1
+<shearing_box>
+qshear = 1.5
+omega0 = 1.0
+<particles>
+particle_type = dust
+pusher = imex_dust
+ppc = 1.0
+<dust>
+nspecies = 1
+taus_1 = 0.1
+dust_to_gas = 0.2
+back_reaction = true
+deposit = tsc
+gamma_switch = false
+dt_cfl = 0.5
+<problem>
+pgen_name = streaming_linear
+user_hist = true
+rho0 = 1.0
+etavk = 0.05
+eps = 0.2
+kx = 120.0
+kz = 120.0
+omega_re = -0.49987875149288097
+drhog_re = -6.744547157000064e-12
+drhog_im = -6.912495248729018e-11
+dugx_re = -8.704511250964992e-10
+dugx_im = -1.385173109504376e-08
+dugp_re = 1.3839936168248991e-08
+dugp_im = -9.37424678517532e-10
+dugz_re = 8.704974440906786e-10
+dugz_im = 1.3852113520200505e-08
+drhop_re = 2e-07
+dvpx_re = 2.3147309227925997e-09
+dvpx_im = -1.3715260043026202e-08
+dvpp_re = 1.3696536978299684e-08
+dvpp_im = 1.9687916021341193e-10
+dvpz_re = 4.161645389046486e-10
+dvpz_im = 1.3844311927830609e-08
+<output1>
+file_type = hst
+dcycle = 100
+data_format = %.14e
