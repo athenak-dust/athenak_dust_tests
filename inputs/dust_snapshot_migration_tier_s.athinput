@@ -1,21 +1,15 @@
-# Tier-S snapshot-seeded synthetic dust-clump benchmark.
+# Tier-S coherent migration-stress benchmark.
 #
-# Build AthenaK with
-#   cmake -D PROBLEM=tests/dust_snapshot_clump ... /path/to/athenak
-#
-# Run from a directory containing the source particle VTK file named below.  This input
-# selects exactly 64^2*16 = 65,536 particles from the 147,456-particle late BA2 snapshot,
-# maps its empirical clump pattern onto this 64^2 box, and supplies a controlled uniform
-# gas, mass loading, stopping time, and radial slip.  This is the ordinary (resolved)
-# member of a matched pair: dtmax/tau_s = 0.1 here, while the companion `_stiff` input
-# uses the identical particle realization with dtmax/tau_s = 10.  It is a synthetic benchmark initial
-# condition, not a restart of the BA2 calculation.
+# It uses exactly the same deterministic BA2 particle positions as the clump pair, but
+# gas and dust start with the same +x1 velocity.  There is initially no drag transient;
+# the common flow repeatedly carries the clump across MeshBlock/MPI and periodic domain
+# boundaries.  This isolates migration/packing overhead from stiff-solver iteration cost.
 
 <comment>
-problem = Tier-S snapshot-seeded synthetic dust clump
+problem = Tier-S coherent migration of snapshot-seeded clump
 
 <job>
-basename = dust_snapshot_clump_tier_s
+basename = dust_snapshot_migration_tier_s
 
 <mesh>
 nghost = 3
@@ -45,9 +39,9 @@ evolution = dynamic
 integrator = imex2+
 cfl_number = 0.45
 dtmax = 0.01
-nlim = 200
+nlim = 2000
 tlim = 1.0e30
-ndiag = 50
+ndiag = 500
 
 <hydro>
 eos = isothermal
@@ -84,18 +78,17 @@ snapshot_x2min = -1.0
 snapshot_x2max = 1.0
 snapshot_seed = 20260720
 user_hist = true
-
 rho0 = 1.0
 eps_1 = 1.0
-gas_vx = 0.0
+gas_vx = 5.0
 gas_vy = 0.0
 gas_vz = 0.0
-slip_vx = 0.1
+slip_vx = 0.0
 slip_vy = 0.0
 slip_vz = 0.0
 velocity_mode = uniform
 
 <output1>
 file_type = hst
-dcycle = 50
+dcycle = 100000
 data_format = %.14e

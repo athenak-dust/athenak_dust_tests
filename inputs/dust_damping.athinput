@@ -64,6 +64,12 @@ back_reaction = true      # dust drags gas (PMBR)
 deposit       = tsc       # particle-mesh deposit scheme
 gamma_switch  = false     # fixed gamma = 1+1/sqrt(2)
 dt_cfl        = 0.5       # particle transport CFL number
+drag_solver   = local     # local/applya/dc1/pcg/adaptive
+drag_rtol     = 1.0e-11   # strict-PCG true-residual relative tolerance
+drag_atol     = 1.0e-14
+drag_iter_max = 200
+drag_fail_policy = abort
+drag_diagnostic_interval = 0
 
 <problem>
 pgen_name = dust_damping  # problem generator name

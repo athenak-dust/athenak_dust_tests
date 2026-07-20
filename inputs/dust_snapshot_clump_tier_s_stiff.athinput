@@ -69,6 +69,12 @@ deposit = tsc
 gamma_switch = false
 stopping_time_mode = species_fixed
 dt_cfl = 0.5
+drag_solver = local
+drag_rtol = 1.0e-11
+drag_atol = 1.0e-14
+drag_iter_max = 200
+drag_fail_policy = abort
+drag_diagnostic_interval = 0
 
 <problem>
 snapshot_file = BA2.prtcl_all.00121.part.vtk
@@ -77,6 +83,7 @@ snapshot_x1max = 1.0
 snapshot_x2min = -1.0
 snapshot_x2max = 1.0
 snapshot_seed = 20260720
+user_hist = true
 
 rho0 = 1.0
 eps_1 = 1.0

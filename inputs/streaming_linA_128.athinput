@@ -52,6 +52,12 @@ back_reaction = true
 deposit = tsc
 gamma_switch = false
 dt_cfl = 0.5
+drag_solver = local
+drag_rtol = 1.0e-11
+drag_atol = 1.0e-14
+drag_iter_max = 200
+drag_fail_policy = abort
+drag_diagnostic_interval = 0
 <problem>
 pgen_name = streaming_linear
 user_hist = true
