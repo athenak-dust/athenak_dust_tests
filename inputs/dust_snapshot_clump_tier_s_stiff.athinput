@@ -1,0 +1,94 @@
+# Tier-S snapshot-seeded synthetic dust-clump benchmark: stiff matched case.
+#
+# This file deliberately differs from dust_snapshot_clump_tier_s.athinput only in the
+# basename and stopping time.  Both cases select the same 65,536 BA2 particles with the
+# same hash seed, mesh, TSC weights, gas state, mass loading, slip, timestep, and cycle
+# window.  Consequently their performance/accuracy difference isolates the change from
+# dtmax/tau_s = 0.1 (ordinary) to dtmax/tau_s = 10 (stiff).
+#
+# Build AthenaK with
+#   cmake -D PROBLEM=tests/dust_snapshot_clump ... /path/to/athenak
+#
+# Run from a directory containing BA2.prtcl_all.00121.part.vtk.
+
+<comment>
+problem = Tier-S snapshot-seeded synthetic dust clump, stiff
+
+<job>
+basename = dust_snapshot_clump_tier_s_stiff
+
+<mesh>
+nghost = 3
+nx1 = 64
+x1min = -1.0
+x1max = 1.0
+ix1_bc = periodic
+ox1_bc = periodic
+nx2 = 64
+x2min = -1.0
+x2max = 1.0
+ix2_bc = periodic
+ox2_bc = periodic
+nx3 = 1
+x3min = -0.5
+x3max = 0.5
+ix3_bc = periodic
+ox3_bc = periodic
+
+<meshblock>
+nx1 = 16
+nx2 = 16
+nx3 = 1
+
+<time>
+evolution = dynamic
+integrator = imex2+
+cfl_number = 0.45
+dtmax = 0.01
+nlim = 200
+tlim = 1.0e30
+ndiag = 50
+
+<hydro>
+eos = isothermal
+iso_sound_speed = 1.0
+reconstruct = plm
+rsolver = roe
+
+<particles>
+particle_type = dust
+pusher = imex_dust
+ppc = 16.0
+
+<dust>
+nspecies = 1
+taus_1 = 1.0e-3
+dust_to_gas = 1.0
+back_reaction = true
+deposit = tsc
+gamma_switch = false
+stopping_time_mode = species_fixed
+dt_cfl = 0.5
+
+<problem>
+snapshot_file = BA2.prtcl_all.00121.part.vtk
+snapshot_x1min = -1.0
+snapshot_x1max = 1.0
+snapshot_x2min = -1.0
+snapshot_x2max = 1.0
+snapshot_seed = 20260720
+
+rho0 = 1.0
+eps_1 = 1.0
+gas_vx = 0.0
+gas_vy = 0.0
+gas_vz = 0.0
+slip_vx = 0.1
+slip_vy = 0.0
+slip_vz = 0.0
+velocity_mode = uniform
+
+<output1>
+file_type = hst
+dcycle = 50
+data_format = %.14e
