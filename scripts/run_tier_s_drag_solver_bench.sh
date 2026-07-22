@@ -14,16 +14,16 @@
 #     /tmp/build-general/src/athena /tmp/build-clump/src/athena inputs \
 #     /path/to/BA2.prtcl_all.00121.part.vtk /tmp/tier_s_results
 #
-# WSL2 single-GPU example:
+# Single-GPU example (WSL2 or a cluster GPU node):
 #
-#   scripts/run_tier_s_drag_solver_bench.sh wsl-gpu \
+#   scripts/run_tier_s_drag_solver_bench.sh single-gpu \
 #     /path/to/athena_gpu_general /path/to/athena_gpu_clump /path/to/inputs \
 #     /path/to/BA2.prtcl_all.00121.part.vtk /path/to/results
 
 set -euo pipefail
 
 if [[ $# -ne 6 ]]; then
-  echo "usage: $0 mac-mpi8|wsl-gpu GENERAL_BIN CLUMP_BIN INPUT_DIR SNAPSHOT_VTK OUTPUT_DIR" >&2
+  echo "usage: $0 mac-mpi8|single-gpu GENERAL_BIN CLUMP_BIN INPUT_DIR SNAPSHOT_VTK OUTPUT_DIR" >&2
   exit 2
 fi
 
@@ -39,11 +39,11 @@ case "$platform" in
     export PATH=/opt/local/bin:$PATH
     launch=(/opt/local/bin/mpiexec -n 8)
     ;;
-  wsl-gpu)
+  single-gpu|wsl-gpu)
     launch=()
     ;;
   *)
-    echo "unknown platform '$platform'; expected mac-mpi8 or wsl-gpu" >&2
+    echo "unknown platform '$platform'; expected mac-mpi8 or single-gpu" >&2
     exit 2
     ;;
 esac
@@ -85,7 +85,7 @@ run_case() {
 }
 
 for repetition in 1 2 3; do
-  for mode in local applya dc1 pcg adaptive; do
+  for mode in local applya dc1 dc2 pcg adaptive; do
     run_case "$general_bin" "$input_dir/dust_damping.athinput" damping "$mode" \
       "$repetition" 2000 general meshblock/nx1=8 meshblock/nx2=8 particles/ppc=3 \
       time/tlim=100000 output1/dt=100000

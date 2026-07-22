@@ -35,7 +35,7 @@ CASES = {
     "stiff": ("clump", 500, 1000),
     "migration": ("clump", 500, 1000),
 }
-MODES = ("local", "applya", "dc1", "pcg", "adaptive")
+MODES = ("local", "applya", "dc1", "dc2", "pcg", "adaptive")
 REPETITIONS = (1, 2, 3)
 TIME_RE = re.compile(r"cpu time used\s*=\s*([0-9.eE+-]+)")
 CYCLE_RE = re.compile(r"^time=[0-9.eE+-]+ cycle=([0-9]+)\s*$", re.MULTILINE)
