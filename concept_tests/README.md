@@ -26,6 +26,7 @@ run them with a Python environment that provides those packages:
 ```bash
 python athenak_dust_tests/concept_tests/test_local_be_pmbr_temporal_order.py
 python athenak_dust_tests/concept_tests/test_yang_history_imex_temporal_order.py
+python athenak_dust_tests/concept_tests/test_coupled_drag_solver_methods.py
 ```
 
 Each script exits nonzero if its final observed slopes do not match the expected
@@ -66,3 +67,24 @@ This checks the mode-dependent history weight proposed in
 The distinction between items 2 and 3 is the central result: the history
 coefficient is second-order for a true exponential semigroup, but the Yang
 sub-cloud map followed by parent collapse and PMBR is not that semigroup.
+
+## `test_coupled_drag_solver_methods.py`
+
+This independently implements the exact frozen-weight coupled backward-Euler
+mesh system and compares the candidate field solvers `local`, `dc1`,
+`defect2`, `cheb8`, strict matrix-free `pcg`, dense solve, and `adaptive`.
+Every method commits its particle kick and PMBR gas update through the same
+matched weights.
+
+The script checks:
+
+1. one-step and fixed-final-time order inside pure-drag `imex2+`;
+2. resolved, stiff, and stiff/high-loading coupled-stage errors;
+3. matrix-free `A*x` and strict PCG against a dense oracle;
+4. momentum conservation and adaptive no-false-acceptance over 400 randomized
+   nonuniform, mixed-stopping-time frozen-weight systems.
+
+This is a mathematical screening test, not a performance benchmark.  It does
+not exercise moving particle weights, MPI/halo operations, shearing boundaries,
+AMR, or AthenaK task orchestration.  The full methods and current results are
+documented in `method_notes/10 - 260719_Codex - drag_solver_concept_tests.md`.
