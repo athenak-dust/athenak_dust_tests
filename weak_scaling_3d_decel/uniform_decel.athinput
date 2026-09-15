@@ -1,0 +1,72 @@
+<comment>
+problem = 3D inertial uniform drag test
+
+<job>
+basename = particle_weak_scaling
+
+<mesh>
+nghost = 2
+nx1 = 256
+x1min = -0.5
+x1max = 0.5
+ix1_bc = periodic
+ox1_bc = periodic
+
+nx2 = 256
+x2min = -0.5
+x2max = 0.5
+ix2_bc = periodic
+ox2_bc = periodic
+
+nx3 = 256
+x3min = -0.5
+x3max = 0.5
+ix3_bc = periodic
+ox3_bc = periodic
+
+<meshblock>
+nx1 = 32
+nx2 = 32
+nx3 = 32
+
+<time>
+evolution = dynamic
+integrator = imex2+
+cfl_number = 0.45
+nlim = 1000
+tlim = 1.0e99
+ndiag = 1000
+
+<hydro>
+eos = isothermal
+iso_sound_speed = 1.0
+reconstruct = plm
+rsolver = hlle
+
+<hydro_srcterms>
+const_accel = true
+const_accel_val = 0.1
+const_accel_dir = 1
+
+<shearing_box>
+qshear = 1.5
+omega0 = 1.0
+
+<particles>
+particle_type = dust
+pusher = imex_dust
+ppc = 1.0
+
+<dust>
+nspecies = 1
+taus_1 = 10.0
+dust_to_gas = 1.0
+back_reaction = true
+deposit = tsc
+gamma_switch = false
+dt_cfl = 0.5
+
+<problem>
+rho0=1.0
+vx0=1.0
+vd0=-1.0

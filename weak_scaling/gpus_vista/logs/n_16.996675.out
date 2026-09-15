@@ -1,0 +1,21 @@
+TACC:  Starting up job 996675 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+MPI_ERR_NO_SUCH_FILE: no such file or directory
+TACC:  MPI job exited with code: 1 
+TACC:  Shutdown complete. Exiting. 
