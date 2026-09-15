@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=particle_scaling_08
-#SBATCH --output=/work/10737/clolds/vista/athenak_dust/athenak_dust_tests/weak_scaling_3d_decelgpus_vista/logs/n_08.%j.out
+#SBATCH --output=/work/10737/clolds/vista/athenak_dust/athenak_dust_tests/weak_scaling_3d_decel/gpus_vista/logs/n_08.%j.out
 #SBATCH --error=/work/10737/clolds/vista/athenak_dust/athenak_dust_tests/weak_scaling_3d_decel/gpus_vista/logs/n_08.%j.err
 #SBATCH --time=01:00:00
 #SBATCH --nodes=8
