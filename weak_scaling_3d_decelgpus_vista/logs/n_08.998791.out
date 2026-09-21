@@ -1,0 +1,41 @@
+TACC:  Starting up job 998791 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+
+Root grid = 8 x 32 x 16 MeshBlocks
+Total number of MeshBlocks = 4096
+Number of logical  levels of refinement = 5 (6 levels total)
+Number of physical levels of refinement = 0 (1 levels total)
+Number of parallel ranks = 8
+  Rank = 0: 512 MeshBlocks, cost = 512
+  Rank = 1: 512 MeshBlocks, cost = 512
+  Rank = 2: 512 MeshBlocks, cost = 512
+  Rank = 3: 512 MeshBlocks, cost = 512
+  Rank = 4: 512 MeshBlocks, cost = 512
+  Rank = 5: 512 MeshBlocks, cost = 512
+  Rank = 6: 512 MeshBlocks, cost = 512
+  Rank = 7: 512 MeshBlocks, cost = 512
+Load Balancing:
+  Maximum normalized cost = 1, Average = 1
+
+Setup complete, executing task list(s)...
+
+elapsed=3.376597e-01 cycle=0 time=0.000000e+00 dt=4.394531e-04
+[1789562638.533433] [c609-031:4189495:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562638.533507] [c639-152:3106042:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562638.533499] [c619-122:3364193:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789562638.533461] [c640-002:2515406:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562638.630358] [c640-001:1749294:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789562638.630213] [c619-131:2669501:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789562638.630554] [c609-032:2567475:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562638.630237] [c639-151:3217440:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562661.250710] [c609-031:4189495:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005bfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562661.250724] [c609-031:4189495:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005bfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789562661.250841] [c640-002:2515406:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005bfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562661.250854] [c640-002:2515406:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005bfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789562661.250927] [c619-122:3364193:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005dfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562661.250941] [c619-122:3364193:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005dfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789562661.250953] [c639-152:3106042:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005bfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562661.250966] [c639-152:3106042:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005bfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+TACC:  MPI job exited with code: 17 
+TACC:  Shutdown complete. Exiting. 

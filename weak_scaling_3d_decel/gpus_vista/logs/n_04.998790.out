@@ -1,0 +1,66 @@
+TACC:  Starting up job 998790 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+
+Root grid = 8 x 16 x 16 MeshBlocks
+Total number of MeshBlocks = 2048
+Number of logical  levels of refinement = 4 (5 levels total)
+Number of physical levels of refinement = 0 (1 levels total)
+Number of parallel ranks = 4
+  Rank = 0: 512 MeshBlocks, cost = 512
+  Rank = 1: 512 MeshBlocks, cost = 512
+  Rank = 2: 512 MeshBlocks, cost = 512
+  Rank = 3: 512 MeshBlocks, cost = 512
+Load Balancing:
+  Maximum normalized cost = 1, Average = 1
+
+Setup complete, executing task list(s)...
+
+elapsed=3.259219e-01 cycle=0 time=0.000000e+00 dt=8.789063e-04
+DustGasDrag halo violation: p=16777216 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777217 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777218 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777219 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777220 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777221 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777222 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777223 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777224 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777225 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777226 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777227 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777228 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777229 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=16777230 gid=76 x=(-nan -nan -nan) block x1=[2.5000e-01,3.7500e-01] x2=[-5.0000e-01,-4.3750e-01] x3=[-4.3750e-01,-3.7500e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865208 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865209 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865210 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865211 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865212 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866232 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866233 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866234 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866235 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866236 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866264 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866265 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866266 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866267 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866268 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866296 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866297 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866298 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866299 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7866300 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865240 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865241 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865242 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865243 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865244 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865272 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865273 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865274 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+DustGasDrag halo violation: p=7865275 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+:0: : block: [61446,0,0], thread: [0DustGasDrag halo violation: p=7865276 gid=912 x=(-nan -nan -nan) block x1=[-5.0000e-01,-3.7500e-01] x2=[3.7500e-01,4.3750e-01] x3=[-2.5000e-01,-1.8750e-01] ip,jp,kp=(-2147483647 -2147483647 -2147483647)
+TACC:  MPI job exited with code: 134 
+TACC:  Shutdown complete. Exiting. 

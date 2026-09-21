@@ -1,0 +1,61 @@
+TACC:  Starting up job 998792 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+
+Root grid = 8 x 32 x 32 MeshBlocks
+Total number of MeshBlocks = 8192
+Number of logical  levels of refinement = 5 (6 levels total)
+Number of physical levels of refinement = 0 (1 levels total)
+Number of parallel ranks = 16
+  Rank = 0: 512 MeshBlocks, cost = 512
+  Rank = 1: 512 MeshBlocks, cost = 512
+  Rank = 2: 512 MeshBlocks, cost = 512
+  Rank = 3: 512 MeshBlocks, cost = 512
+  Rank = 4: 512 MeshBlocks, cost = 512
+  Rank = 5: 512 MeshBlocks, cost = 512
+  Rank = 6: 512 MeshBlocks, cost = 512
+  Rank = 7: 512 MeshBlocks, cost = 512
+  Rank = 8: 512 MeshBlocks, cost = 512
+  Rank = 9: 512 MeshBlocks, cost = 512
+  Rank = 10: 512 MeshBlocks, cost = 512
+  Rank = 11: 512 MeshBlocks, cost = 512
+  Rank = 12: 512 MeshBlocks, cost = 512
+  Rank = 13: 512 MeshBlocks, cost = 512
+  Rank = 14: 512 MeshBlocks, cost = 512
+  Rank = 15: 512 MeshBlocks, cost = 512
+Load Balancing:
+  Maximum normalized cost = 1, Average = 1
+
+Setup complete, executing task list(s)...
+
+elapsed=3.216038e-01 cycle=0 time=0.000000e+00 dt=4.394531e-04
+[1789562919.613441] [c609-031:2905 :0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40053ff90000 length 458752) failed: Address not valid
+[1789562919.613536] [c620-121:2588377:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562919.613604] [c619-122:3371295:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789562919.613555] [c609-111:1023026:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40053ff90000 length 458752) failed: Address not valid
+[1789562919.613529] [c620-112:3778589:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562919.613722] [c640-001:1756377:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40053ff90000 length 458752) failed: Address not valid
+[1789562919.613540] [c620-122:2436670:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789562919.710009] [c609-121:1119407:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562919.709884] [c609-112:1878400:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562919.710043] [c619-131:2677260:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562919.710076] [c620-131:113411:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562919.709993] [c640-002:2523147:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562919.710084] [c639-152:3113126:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562919.710008] [c620-132:90520:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789562919.709869] [c609-032:2574496:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789562919.710057] [c639-151:3224526:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789562942.202723] [c609-031:2905 :0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005bfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562942.202736] [c609-031:2905 :0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005bfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789562942.202829] [c639-152:3113126:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005dfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562942.202844] [c639-152:3113126:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005dfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789562942.202871] [c620-121:2588377:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005bfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562942.202885] [c620-121:2588377:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005bfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789562942.202873] [c609-111:1023026:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005bfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562942.202888] [c609-111:1023026:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005bfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789562942.202881] [c640-002:2523147:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005bfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562942.202895] [c640-002:2523147:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005bfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789562942.203014] [c619-122:3371295:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4005dfe00000, length=1441792, access=0xf) failed: Invalid argument
+[1789562942.203029] [c619-122:3371295:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4005dfe00000 (cuda) length 1441792 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+TACC:  MPI job exited with code: 17 
+TACC:  Shutdown complete. Exiting. 

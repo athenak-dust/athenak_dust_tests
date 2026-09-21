@@ -1,0 +1,5 @@
+TACC:  Starting up job 998811 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+TACC:  MPI job exited with code: 127 
+TACC:  Shutdown complete. Exiting. 

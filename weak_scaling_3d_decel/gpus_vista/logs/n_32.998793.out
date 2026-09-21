@@ -1,0 +1,113 @@
+TACC:  Starting up job 998793 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+
+Root grid = 8 x 64 x 32 MeshBlocks
+Total number of MeshBlocks = 16384
+Number of logical  levels of refinement = 6 (7 levels total)
+Number of physical levels of refinement = 0 (1 levels total)
+Number of parallel ranks = 32
+  Rank = 0: 512 MeshBlocks, cost = 512
+  Rank = 1: 512 MeshBlocks, cost = 512
+  Rank = 2: 512 MeshBlocks, cost = 512
+  Rank = 3: 512 MeshBlocks, cost = 512
+  Rank = 4: 512 MeshBlocks, cost = 512
+  Rank = 5: 512 MeshBlocks, cost = 512
+  Rank = 6: 512 MeshBlocks, cost = 512
+  Rank = 7: 512 MeshBlocks, cost = 512
+  Rank = 8: 512 MeshBlocks, cost = 512
+  Rank = 9: 512 MeshBlocks, cost = 512
+  Rank = 10: 512 MeshBlocks, cost = 512
+  Rank = 11: 512 MeshBlocks, cost = 512
+  Rank = 12: 512 MeshBlocks, cost = 512
+  Rank = 13: 512 MeshBlocks, cost = 512
+  Rank = 14: 512 MeshBlocks, cost = 512
+  Rank = 15: 512 MeshBlocks, cost = 512
+  Rank = 16: 512 MeshBlocks, cost = 512
+  Rank = 17: 512 MeshBlocks, cost = 512
+  Rank = 18: 512 MeshBlocks, cost = 512
+  Rank = 19: 512 MeshBlocks, cost = 512
+  Rank = 20: 512 MeshBlocks, cost = 512
+  Rank = 21: 512 MeshBlocks, cost = 512
+  Rank = 22: 512 MeshBlocks, cost = 512
+  Rank = 23: 512 MeshBlocks, cost = 512
+  Rank = 24: 512 MeshBlocks, cost = 512
+  Rank = 25: 512 MeshBlocks, cost = 512
+  Rank = 26: 512 MeshBlocks, cost = 512
+  Rank = 27: 512 MeshBlocks, cost = 512
+  Rank = 28: 512 MeshBlocks, cost = 512
+  Rank = 29: 512 MeshBlocks, cost = 512
+  Rank = 30: 512 MeshBlocks, cost = 512
+  Rank = 31: 512 MeshBlocks, cost = 512
+Load Balancing:
+  Maximum normalized cost = 1, Average = 1
+
+Setup complete, executing task list(s)...
+
+elapsed=3.662509e-01 cycle=0 time=0.000000e+00 dt=2.197266e-04
+[1789570437.901289] [c609-112:1939399:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40053ff90000 length 458752) failed: Address not valid
+[1789570437.901330] [c641-132:1100771:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.901204] [c641-142:1543949:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.901236] [c639-152:3173904:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.901336] [c620-062:3759455:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.901209] [c611-062:1781587:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.901081] [c611-071:2499842:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.901028] [c612-132:1580174:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.901189] [c640-002:2589490:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.901084] [c634-091:83589:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40053ff90000 length 458752) failed: Address not valid
+[1789570437.901489] [c612-072:2398106:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.901621] [c619-001:1723490:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.901044] [c622-012:3268621:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.901292] [c612-122:3061777:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40053ff90000 length 458752) failed: Address not valid
+[1789570437.901038] [c622-021:1560108:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.901957] [c613-151:1026069:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40053ff90000 length 458752) failed: Address not valid
+[1789570437.988576] [c609-111:1084365:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.988151] [c620-061:2137176:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.988081] [c639-151:3285866:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40053ff90000 length 458752) failed: Address not valid
+[1789570437.988290] [c634-082:2280348:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.987937] [c611-072:715212:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40053ff90000 length 458752) failed: Address not valid
+[1789570437.988098] [c640-001:1817514:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.987997] [c622-011:4084429:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.988212] [c612-081:951835:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.988254] [c612-082:276957:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.988293] [c620-052:2490070:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.988689] [c634-092:3241654:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.988351] [c609-121:1185700:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.988401] [c641-141:749987:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.988181] [c612-131:1847068:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40057ff90000 length 458752) failed: Address not valid
+[1789570437.988059] [c613-152:2429755:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570437.988213] [c641-151:3083683:0]          ucp_mm.c:490  UCX  ERROR uct_md_mem_query(dmabuf address 0x40055ff90000 length 458752) failed: Address not valid
+[1789570479.621652] [c613-151:1026069:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4004f9380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621668] [c613-151:1026069:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4004f9380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621149] [c641-142:1543949:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400539380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621164] [c641-142:1543949:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400539380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621322] [c620-062:3759455:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400519380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621337] [c620-062:3759455:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400519380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621015] [c612-132:1580174:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400539380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621029] [c612-132:1580174:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400539380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621330] [c609-112:1939399:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4004f9380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621344] [c609-112:1939399:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4004f9380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621248] [c612-122:3061777:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4004f9380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621264] [c612-122:3061777:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4004f9380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621206] [c611-062:1781587:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400519380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621219] [c611-062:1781587:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400519380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621084] [c634-091:83589:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x4004f9380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621099] [c634-091:83589:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x4004f9380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.620995] [c622-021:1560108:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400539380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621009] [c622-021:1560108:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400539380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621355] [c641-132:1100771:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400519380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621368] [c641-132:1100771:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400519380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621015] [c622-012:3268621:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400519380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621030] [c622-012:3268621:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400519380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621266] [c639-152:3173904:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400519380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621281] [c639-152:3173904:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400519380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621108] [c611-071:2499842:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400539380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621122] [c611-071:2499842:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400539380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621636] [c619-001:1723490:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400539380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621650] [c619-001:1723490:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400539380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621538] [c612-072:2398106:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400539380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621552] [c612-072:2398106:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400539380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+[1789570479.621264] [c640-002:2589490:0]           ib_md.c:293  UCX  ERROR ibv_reg_dmabuf_mr(address=0x400519380000, length=458752, access=0xf) failed: Invalid argument
+[1789570479.621279] [c640-002:2589490:0]          ucp_mm.c:70   UCX  ERROR failed to register address 0x400519380000 (cuda) length 458752 dmabuf_fd 85 on md[7]=mlx5_0: Input/output error (md supports: host)
+TACC:  MPI job exited with code: 17 
+TACC:  Shutdown complete. Exiting. 
