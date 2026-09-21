@@ -43,15 +43,6 @@ iso_sound_speed = 1.0
 reconstruct = plm
 rsolver = hlle
 
-<hydro_srcterms>
-const_accel = true
-const_accel_val = 0.1
-const_accel_dir = 1
-
-<shearing_box>
-qshear = 1.5
-omega0 = 1.0
-
 <particles>
 particle_type = dust
 pusher = imex_dust

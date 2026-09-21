@@ -10,6 +10,10 @@
 
 cd /work/10737/clolds/vista/athenak_dust
 
+module purge
+module load nvidia/24.7
+module load openmpi/5.0.5
+
 ibrun ./athenak/build-gpu-mpi/src/athena \
     -i ./athenak_dust_tests/weak_scaling_3d_decel/uniform_decel.athinput \
     -d ./athenak_dust_tests/weak_scaling_3d_decel/gpus_vista/logs \
