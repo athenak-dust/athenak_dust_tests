@@ -53,6 +53,7 @@ nspecies = 1
 taus_1 = 10.0
 dust_to_gas = 1.0
 back_reaction = true
+coupling = imex
 deposit = tsc
 gamma_switch = false
 dt_cfl = 0.5

@@ -1,18 +1,14 @@
 #!/bin/bash
-#SBATCH --job-name=particle_scaling_02
-#SBATCH --output=/work/10737/clolds/vista/athenak_dust/athenak_dust_tests/weak_scaling_3d_decel/gpus_horizon/logs/n_02.%j.out
-#SBATCH --error=/work/10737/clolds/vista/athenak_dust/athenak_dust_tests/weak_scaling_3d_decel/gpus_horizon/logs/n_02.%j.err
+#SBATCH --job-name=particle_scaling_01
+#SBATCH --output=/home1/10737/clolds/athenak_dust/athenak_dust_tests/weak_scaling_3d_decel/gpus_horizon/logs/n_02.%j.out
+#SBATCH --error=/home1/10737/clolds/athenak_dust/athenak_dust_tests/weak_scaling_3d_decel/gpus_horizon/logs/n_02.%j.err
 #SBATCH --time=01:00:00
 #SBATCH --nodes=2
 #SBATCH --ntasks-per-node=1
-#SBATCH --partition=gb
+#SBATCH --partition=debug
 #SBATCH --account=AST25015
 
-cd /work/10737/clolds/vista/athenak_dust
-
-module purge
-module load nvidia/24.7
-module load openmpi/5.0.5
+cd /home1/10737/clolds/athenak_dust/
 
 ibrun ./athenak/build-gpu-mpi/src/athena \
     -i ./athenak_dust_tests/weak_scaling_3d_decel/uniform_decel.athinput \

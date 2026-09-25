@@ -1,8 +1,0 @@
-Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
-Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
---------------------------------------------------------------------------
-prterun detected that one or more processes exited with non-zero status,
-thus causing the job to be terminated. The first process to do so was:
-
-   Process name: [prterun-c637-081-3090901@1,0] Exit code:    1
---------------------------------------------------------------------------
