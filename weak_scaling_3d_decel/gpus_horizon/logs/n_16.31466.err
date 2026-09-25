@@ -1,0 +1,37 @@
+cudaDeviceSynchronize() error( cudaErrorIllegalAddress): an illegal memory access was encountered /home1/10737/clolds/athenak_dust/athenak/kokkos/core/src/Cuda/Kokkos_Cuda_Instance.cpp:154
+Backtrace:
+[0x14b8354] 
+[0x1465968] 
+[0x14c82bc] 
+[0x14c16b8] 
+[0x1488818] 
+[0x48ef84] 
+[0x47ed10] 
+[0x5ac030] 
+[0x409520] 
+[0x40003a0d609c] 
+[0x40003a0d617c] __libc_start_main
+[0x4087b0] 
+[c127-026:2872803] *** Process received signal ***
+[c127-026:2872803] Signal: Aborted (6)
+[c127-026:2872803] Signal code:  (-6)
+[c127-026:2872803] [ 0] linux-vdso.so.1(__kernel_rt_sigreturn+0x0)[0x400033990840]
+[c127-026:2872803] [ 1] /lib64/libc.so.6(+0x8b960)[0x40003a13b960]
+[c127-026:2872803] [ 2] /lib64/libc.so.6(gsignal+0x20)[0x40003a0eac00]
+[c127-026:2872803] [ 3] /lib64/libc.so.6(abort+0xf8)[0x40003a0d5988]
+[c127-026:2872803] [ 4] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x1465974]
+[c127-026:2872803] [ 5] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x14c82bc]
+[c127-026:2872803] [ 6] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x14c16b8]
+[c127-026:2872803] [ 7] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x1488818]
+[c127-026:2872803] [ 8] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x48ef84]
+[c127-026:2872803] [ 9] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x47ed10]
+[c127-026:2872803] [10] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x5ac030]
+[c127-026:2872803] [11] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x409520]
+[c127-026:2872803] [12] /lib64/libc.so.6(+0x2609c)[0x40003a0d609c]
+[c127-026:2872803] [13] /lib64/libc.so.6(__libc_start_main+0x9c)[0x40003a0d617c]
+[c127-026:2872803] [14] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x4087b0]
+[c127-026:2872803] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 15 with PID 2872803 on node c127-026 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------

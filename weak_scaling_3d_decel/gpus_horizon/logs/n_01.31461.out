@@ -1,0 +1,24 @@
+TACC:  Starting up job 31461 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+
+Root grid = 8 x 8 x 8 MeshBlocks
+Total number of MeshBlocks = 512
+Number of logical  levels of refinement = 3 (4 levels total)
+Number of physical levels of refinement = 0 (1 levels total)
+Number of parallel ranks = 1
+
+Setup complete, executing task list(s)...
+
+elapsed=9.624530e-02 cycle=0 time=0.000000e+00 dt=8.789063e-04
+elapsed=6.786958e+01 cycle=1000 time=9.185887e-01 dt=9.594153e-04
+
+Terminating on cycle limit
+time=9.185887e-01 cycle=1000
+tlim=1.000000e+99 nlim=1000
+
+MeshBlock-cycles = 512000
+cpu time used  = 6.777335e+01
+zone-cycles/cpu_second = 2.475488e+08
+particle-updates/cpu_second = 2.475488e+08
+TACC:  Shutdown complete. Exiting. 

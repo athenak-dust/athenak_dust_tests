@@ -1,0 +1,33 @@
+TACC:  Starting up job 31466 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+
+Root grid = 8 x 32 x 32 MeshBlocks
+Total number of MeshBlocks = 8192
+Number of logical  levels of refinement = 5 (6 levels total)
+Number of physical levels of refinement = 0 (1 levels total)
+Number of parallel ranks = 16
+  Rank = 0: 512 MeshBlocks, cost = 512
+  Rank = 1: 512 MeshBlocks, cost = 512
+  Rank = 2: 512 MeshBlocks, cost = 512
+  Rank = 3: 512 MeshBlocks, cost = 512
+  Rank = 4: 512 MeshBlocks, cost = 512
+  Rank = 5: 512 MeshBlocks, cost = 512
+  Rank = 6: 512 MeshBlocks, cost = 512
+  Rank = 7: 512 MeshBlocks, cost = 512
+  Rank = 8: 512 MeshBlocks, cost = 512
+  Rank = 9: 512 MeshBlocks, cost = 512
+  Rank = 10: 512 MeshBlocks, cost = 512
+  Rank = 11: 512 MeshBlocks, cost = 512
+  Rank = 12: 512 MeshBlocks, cost = 512
+  Rank = 13: 512 MeshBlocks, cost = 512
+  Rank = 14: 512 MeshBlocks, cost = 512
+  Rank = 15: 512 MeshBlocks, cost = 512
+Load Balancing:
+  Maximum normalized cost = 1, Average = 1
+
+Setup complete, executing task list(s)...
+
+elapsed=5.824605e-01 cycle=0 time=0.000000e+00 dt=4.394531e-04
+TACC:  MPI job exited with code: 134 
+TACC:  Shutdown complete. Exiting. 

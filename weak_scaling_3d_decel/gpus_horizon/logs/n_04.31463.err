@@ -1,0 +1,342 @@
+:0: : block: [115186,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115186,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115186,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115186,0,0], thread: [0,23,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115186,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115186,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115186,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115186,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115186,0,0], thread: [0,28,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,23,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,28,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,29,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116002,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116002,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116002,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116002,0,0], thread: [0,23,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116002,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116002,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116002,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116002,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116002,0,0], thread: [0,28,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,22,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,23,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115194,0,0], thread: [0,28,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115994,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,54,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,55,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,60,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,86,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,87,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,92,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,118,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,119,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,124,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115193,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115968,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115968,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115968,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,117,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,118,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,119,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,124,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,125,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,126,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,85,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,86,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,87,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,92,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,93,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115969,0,0], thread: [0,94,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115177,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115177,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115177,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,119,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,124,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,125,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115177,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115177,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115177,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115178,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115178,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115178,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115984,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115984,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115984,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116009,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116009,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116009,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116009,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116009,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116009,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115993,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116010,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116010,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116010,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,21,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,22,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,23,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,28,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,29,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,30,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,55,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,60,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,61,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,23,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,28,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,87,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115978,0,0], thread: [0,92,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,117,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,118,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,119,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,124,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,125,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,126,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,85,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,86,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,87,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,92,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,93,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,94,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,54,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,55,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,60,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,55,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,60,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,61,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,23,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,28,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,117,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,118,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,119,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,124,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,125,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,126,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,87,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,92,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,21,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,22,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,23,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,28,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,29,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115986,0,0], thread: [0,30,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,54,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,55,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115977,0,0], thread: [0,60,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115976,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115976,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115976,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,85,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,86,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,87,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,92,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,93,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115985,0,0], thread: [0,94,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,119,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,124,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,87,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [116001,0,0], thread: [0,92,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,55,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,59,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,60,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,61,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,87,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,92,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,21,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,22,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,23,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,24,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,25,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,26,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,27,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,28,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,29,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115970,0,0], thread: [0,30,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,56,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,57,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,58,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,87,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,88,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,89,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,90,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,91,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,92,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,119,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,120,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,121,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,122,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,123,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+:0: : block: [115185,0,0], thread: [0,124,0] Assertion `DustGasDrag: particle outside deposit halo` failed.
+cudaDeviceSynchronize() error( cudaErrorAssert): device-side assert triggered /home1/10737/clolds/athenak_dust/athenak/kokkos/core/src/Cuda/Kokkos_Cuda_Instance.cpp:154
+Backtrace:
+[0x14b8354] 
+[0x1465968] 
+[0x14c82bc] 
+[0x14c16b8] 
+[0x1488818] 
+[0x44eeb4] 
+[0x5ac030] 
+[0x409520] 
+[0x4000285f609c] 
+[0x4000285f617c] __libc_start_main
+[0x4087b0] 
+[c102-019:2096711] *** Process received signal ***
+[c102-019:2096711] Signal: Aborted (6)
+[c102-019:2096711] Signal code:  (-6)
+[c102-019:2096711] [ 0] linux-vdso.so.1(__kernel_rt_sigreturn+0x0)[0x400021e90840]
+[c102-019:2096711] [ 1] /lib64/libc.so.6(+0x8b960)[0x40002865b960]
+[c102-019:2096711] [ 2] /lib64/libc.so.6(gsignal+0x20)[0x40002860ac00]
+[c102-019:2096711] [ 3] /lib64/libc.so.6(abort+0xf8)[0x4000285f5988]
+[c102-019:2096711] [ 4] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x1465974]
+[c102-019:2096711] [ 5] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x14c82bc]
+[c102-019:2096711] [ 6] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x14c16b8]
+[c102-019:2096711] [ 7] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x1488818]
+[c102-019:2096711] [ 8] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x44eeb4]
+[c102-019:2096711] [ 9] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x5ac030]
+[c102-019:2096711] [10] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x409520]
+[c102-019:2096711] [11] /lib64/libc.so.6(+0x2609c)[0x4000285f609c]
+[c102-019:2096711] [12] /lib64/libc.so.6(__libc_start_main+0x9c)[0x4000285f617c]
+[c102-019:2096711] [13] /home1/10737/clolds/athenak_dust/athenak/build-gpu-mpi/src/athena[0x4087b0]
+[c102-019:2096711] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 1 with PID 2096711 on node c102-019 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------
