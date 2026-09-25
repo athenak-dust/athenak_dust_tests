@@ -1,0 +1,16 @@
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+--------------------------------------------------------------------------
+prterun detected that one or more processes exited with non-zero status,
+thus causing the job to be terminated. The first process to do so was:
+
+   Process name: [prterun-c608-082-1056987@1,6] Exit code:    1
+--------------------------------------------------------------------------
+corrupted double-linked list
+/usr/local/bin/ibrun: line 814: 1056987 Aborted                 (core dumped) mpirun -np $MY_NSLOTS -hostfile $hostfile_tacc $TACC_OPENMPI_ENV $OPENMPI_AFFINITY $TACC_OPENMPI_OPTIONS $MY_MPIRUN_OPTIONS $fullcmd "$@"

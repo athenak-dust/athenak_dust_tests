@@ -1,0 +1,58 @@
+TACC:  Starting up job 1015584 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+
+Root grid = 8 x 64 x 32 MeshBlocks
+Total number of MeshBlocks = 16384
+Number of logical  levels of refinement = 6 (7 levels total)
+Number of physical levels of refinement = 0 (1 levels total)
+Number of parallel ranks = 32
+  Rank = 0: 512 MeshBlocks, cost = 512
+  Rank = 1: 512 MeshBlocks, cost = 512
+  Rank = 2: 512 MeshBlocks, cost = 512
+  Rank = 3: 512 MeshBlocks, cost = 512
+  Rank = 4: 512 MeshBlocks, cost = 512
+  Rank = 5: 512 MeshBlocks, cost = 512
+  Rank = 6: 512 MeshBlocks, cost = 512
+  Rank = 7: 512 MeshBlocks, cost = 512
+  Rank = 8: 512 MeshBlocks, cost = 512
+  Rank = 9: 512 MeshBlocks, cost = 512
+  Rank = 10: 512 MeshBlocks, cost = 512
+  Rank = 11: 512 MeshBlocks, cost = 512
+  Rank = 12: 512 MeshBlocks, cost = 512
+  Rank = 13: 512 MeshBlocks, cost = 512
+  Rank = 14: 512 MeshBlocks, cost = 512
+  Rank = 15: 512 MeshBlocks, cost = 512
+  Rank = 16: 512 MeshBlocks, cost = 512
+  Rank = 17: 512 MeshBlocks, cost = 512
+  Rank = 18: 512 MeshBlocks, cost = 512
+  Rank = 19: 512 MeshBlocks, cost = 512
+  Rank = 20: 512 MeshBlocks, cost = 512
+  Rank = 21: 512 MeshBlocks, cost = 512
+  Rank = 22: 512 MeshBlocks, cost = 512
+  Rank = 23: 512 MeshBlocks, cost = 512
+  Rank = 24: 512 MeshBlocks, cost = 512
+  Rank = 25: 512 MeshBlocks, cost = 512
+  Rank = 26: 512 MeshBlocks, cost = 512
+  Rank = 27: 512 MeshBlocks, cost = 512
+  Rank = 28: 512 MeshBlocks, cost = 512
+  Rank = 29: 512 MeshBlocks, cost = 512
+  Rank = 30: 512 MeshBlocks, cost = 512
+  Rank = 31: 512 MeshBlocks, cost = 512
+Load Balancing:
+  Maximum normalized cost = 1, Average = 1
+
+Setup complete, executing task list(s)...
+
+elapsed=3.740258e-01 cycle=0 time=0.000000e+00 dt=2.197266e-04
+elapsed=1.022409e+02 cycle=1000 time=2.197266e-01 dt=2.197266e-04
+
+Terminating on cycle limit
+time=2.197266e-01 cycle=1000
+tlim=1.000000e+99 nlim=1000
+
+MeshBlock-cycles = 16384000
+cpu time used  = 1.018669e+02
+zone-cycles/cpu_second = 5.270319e+09
+particle-updates/cpu_second = 5.270319e+09
+TACC:  Shutdown complete. Exiting. 

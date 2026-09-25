@@ -1,0 +1,7 @@
+TACC:  Starting up job 1015903 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+### FATAL ERROR in /work/10737/clolds/vista/athenak_dust/athenak/src/parameter_input.cpp at line 390
+Parameter 'coupling' in block 'dust' on command line not found
+TACC:  MPI job exited with code: 1 
+TACC:  Shutdown complete. Exiting. 

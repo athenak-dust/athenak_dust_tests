@@ -1,0 +1,11 @@
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+Kokkos::Cuda ERROR: Failed to call Kokkos::Cuda::finalize()
+--------------------------------------------------------------------------
+prterun detected that one or more processes exited with non-zero status,
+thus causing the job to be terminated. The first process to do so was:
+
+   Process name: [prterun-c609-141-1042030@1,3] Exit code:    1
+--------------------------------------------------------------------------
+slurmstepd: error: *** JOB 1015905 ON c609-141 CANCELLED AT 2026-09-22T15:58:35 DUE TO TIME LIMIT ***
