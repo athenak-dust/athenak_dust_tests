@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH --job-name=particle_scaling_01
+#SBATCH --output=/home1/10737/clolds/athenak_dust/athenak_dust_tests/weak_scaling_3d_decel/cpus_horizon/logs/n_16.%j.out
+#SBATCH --error=/home1/10737/clolds/athenak_dust/athenak_dust_tests/weak_scaling_3d_decel/cpus_horizon/logs/n_16.%j.err
+#SBATCH --time=01:00:00
+#SBATCH --nodes=16
+#SBATCH --ntasks-per-node=64
+#SBATCH --partition=debug
+#SBATCH --account=AST25015
+
+cd /home1/10737/clolds/athenak_dust/
+
+ibrun ./athenak/build-gpu-mpi/src/athena \
+    -i ./athenak_dust_tests/weak_scaling_3d_decel/uniform_decel.athinput \
+    -d ./athenak_dust_tests/weak_scaling_3d_decel/cpus_horizon/logs \
+    mesh/nx1=256 \
+    mesh/nx2=1024 \
+    mesh/nx3=1024 \
