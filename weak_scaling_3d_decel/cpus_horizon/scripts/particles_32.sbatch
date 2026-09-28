@@ -10,7 +10,7 @@
 
 cd /home1/10737/clolds/athenak_dust/
 
-ibrun ./athenak/build-gpu-mpi/src/athena \
+ibrun ./athenak/build-mpi/src/athena \
     -i ./athenak_dust_tests/weak_scaling_3d_decel/uniform_decel.athinput \
     -d ./athenak_dust_tests/weak_scaling_3d_decel/cpus_horizon/logs \
     mesh/nx1=256 \
