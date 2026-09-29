@@ -1,0 +1,90 @@
+TACC:  Starting up job 35616 
+TACC:  Setting up parallel environment for OpenMPI mpirun. 
+TACC:  Starting parallel tasks... 
+
+Root grid = 8 x 8 x 8 MeshBlocks
+Total number of MeshBlocks = 512
+Number of logical  levels of refinement = 3 (4 levels total)
+Number of physical levels of refinement = 0 (1 levels total)
+Number of parallel ranks = 64
+  Rank = 0: 8 MeshBlocks, cost = 8
+  Rank = 1: 8 MeshBlocks, cost = 8
+  Rank = 2: 8 MeshBlocks, cost = 8
+  Rank = 3: 8 MeshBlocks, cost = 8
+  Rank = 4: 8 MeshBlocks, cost = 8
+  Rank = 5: 8 MeshBlocks, cost = 8
+  Rank = 6: 8 MeshBlocks, cost = 8
+  Rank = 7: 8 MeshBlocks, cost = 8
+  Rank = 8: 8 MeshBlocks, cost = 8
+  Rank = 9: 8 MeshBlocks, cost = 8
+  Rank = 10: 8 MeshBlocks, cost = 8
+  Rank = 11: 8 MeshBlocks, cost = 8
+  Rank = 12: 8 MeshBlocks, cost = 8
+  Rank = 13: 8 MeshBlocks, cost = 8
+  Rank = 14: 8 MeshBlocks, cost = 8
+  Rank = 15: 8 MeshBlocks, cost = 8
+  Rank = 16: 8 MeshBlocks, cost = 8
+  Rank = 17: 8 MeshBlocks, cost = 8
+  Rank = 18: 8 MeshBlocks, cost = 8
+  Rank = 19: 8 MeshBlocks, cost = 8
+  Rank = 20: 8 MeshBlocks, cost = 8
+  Rank = 21: 8 MeshBlocks, cost = 8
+  Rank = 22: 8 MeshBlocks, cost = 8
+  Rank = 23: 8 MeshBlocks, cost = 8
+  Rank = 24: 8 MeshBlocks, cost = 8
+  Rank = 25: 8 MeshBlocks, cost = 8
+  Rank = 26: 8 MeshBlocks, cost = 8
+  Rank = 27: 8 MeshBlocks, cost = 8
+  Rank = 28: 8 MeshBlocks, cost = 8
+  Rank = 29: 8 MeshBlocks, cost = 8
+  Rank = 30: 8 MeshBlocks, cost = 8
+  Rank = 31: 8 MeshBlocks, cost = 8
+  Rank = 32: 8 MeshBlocks, cost = 8
+  Rank = 33: 8 MeshBlocks, cost = 8
+  Rank = 34: 8 MeshBlocks, cost = 8
+  Rank = 35: 8 MeshBlocks, cost = 8
+  Rank = 36: 8 MeshBlocks, cost = 8
+  Rank = 37: 8 MeshBlocks, cost = 8
+  Rank = 38: 8 MeshBlocks, cost = 8
+  Rank = 39: 8 MeshBlocks, cost = 8
+  Rank = 40: 8 MeshBlocks, cost = 8
+  Rank = 41: 8 MeshBlocks, cost = 8
+  Rank = 42: 8 MeshBlocks, cost = 8
+  Rank = 43: 8 MeshBlocks, cost = 8
+  Rank = 44: 8 MeshBlocks, cost = 8
+  Rank = 45: 8 MeshBlocks, cost = 8
+  Rank = 46: 8 MeshBlocks, cost = 8
+  Rank = 47: 8 MeshBlocks, cost = 8
+  Rank = 48: 8 MeshBlocks, cost = 8
+  Rank = 49: 8 MeshBlocks, cost = 8
+  Rank = 50: 8 MeshBlocks, cost = 8
+  Rank = 51: 8 MeshBlocks, cost = 8
+  Rank = 52: 8 MeshBlocks, cost = 8
+  Rank = 53: 8 MeshBlocks, cost = 8
+  Rank = 54: 8 MeshBlocks, cost = 8
+  Rank = 55: 8 MeshBlocks, cost = 8
+  Rank = 56: 8 MeshBlocks, cost = 8
+  Rank = 57: 8 MeshBlocks, cost = 8
+  Rank = 58: 8 MeshBlocks, cost = 8
+  Rank = 59: 8 MeshBlocks, cost = 8
+  Rank = 60: 8 MeshBlocks, cost = 8
+  Rank = 61: 8 MeshBlocks, cost = 8
+  Rank = 62: 8 MeshBlocks, cost = 8
+  Rank = 63: 8 MeshBlocks, cost = 8
+Load Balancing:
+  Maximum normalized cost = 1, Average = 1
+
+Setup complete, executing task list(s)...
+
+elapsed=8.431085e-02 cycle=0 time=0.000000e+00 dt=8.789063e-04
+elapsed=7.794715e+02 cycle=1000 time=9.185887e-01 dt=9.594153e-04
+
+Terminating on cycle limit
+time=9.185887e-01 cycle=1000
+tlim=1.000000e+99 nlim=1000
+
+MeshBlock-cycles = 512000
+cpu time used  = 7.793872e+02
+zone-cycles/cpu_second = 2.152616e+07
+particle-updates/cpu_second = 2.152616e+07
+TACC:  Shutdown complete. Exiting. 
